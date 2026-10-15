@@ -1,0 +1,18 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- GUI 本地状态（不该入库）----
+gui/config.local.txt
+gui/gui.log
+
+# ---- 运行产物 ----
+tts_out/
+_warmup*.wav
+
+# ---- 模型权重：走 Releases 下载，切勿提交（单个 130MB+）----
+weights/*.ckpt
+weights/*.pth
+weights/*.pt
+weights/*.safetensors
